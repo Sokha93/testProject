@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@200;600&family=Square+Peg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-block">
+            <div class="form-header">Добавление товара</div>
+            <div class="form-side">
+                <form action="" class="form">
+                    <label for="product" class="label-text">
+                        Hаименование товара<span><img src="./img/rectangle.png" width="4px" height="4px" class="rectangle"/></span>
+                    </label>
+                    <input type="text" name="" value="as" id="product" class="product-name" placeholder="Введите наименование товара">
+                    <div class="validation" id="validation-text">Поле является обязательным</div>
+                    <label for="description" class="label-text">Описание товара</label>
+                    <textarea name="" value="" id="description" cols="30" rows="10" class="product-description" placeholder="Введите описание товара"></textarea>
+                    <label for="link" class="label-text">
+                        Ссылка на изображение товара<span><img src="./img/rectangle.png" width="4px" height="4px" class="rectangle"/></span>
+                    </label>
+                    <input type="text" value="ad" id="link" class="product-name" placeholder="Bведите ссылку">
+                    <div class="validation" id="validation-text2">Поле является обязательным</div>
+                    <label for="price" class="label-text" >
+                        Цена товара <span><img src="./img/rectangle.png" width="4px" height="4px" class="rectangle"/></span>
+                    </label>
+                    <input type="text" name="" value ="af" id="price" class="product-name" placeholder="Bведите цену">
+                    <div class="validation" id="validation-text3">Поле является обязательным</div>
+                    <button class="click-button white" id="button" onclick="checkValidation()">Добавить товар</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div>
+            <div class="product-side">
+                <div class="select-block">
+                    <select name="" id="" class="select-menu">
+                        <option value="" class="select-options" selected>По умолчанию</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <div class="product-inform field">
+                        <img src="./img/Rectangle31.png" class="cardimg" alt="">
+                        <div class="header-text">Наименование товара</div>
+                        <div class="paragraph-text">
+                            Довольно таки интересное описание товара в несколько строк.
+                            Довольно таки интересное описание товара в несколько строк.
+                        </div>
+                        <div class="price-text">10 000 руб.</div>
+                    </div>
+                    <div class="product-inform field">
+                        <img src="./img/Rectangle31.png" width="332px" height="200px" alt="">
+                        <div class="header-text">Наименование товара</div>
+                        <div class="paragraph-text">
+                            Довольно таки интересное описание товара в несколько строк.
+                            Довольно таки интересное описание товара в несколько строк.
+                        </div>
+                        <div class="price-text">10 000 руб.</div>
+                    </div>
+                    <div class="product-inform field">
+                        <img src="./img/Rectangle31.png" width="332px" height="200px" alt="">
+                        <div class="header-text">Наименование товара</div>
+                        <div class="paragraph-text">
+                            Довольно таки интересное описание товара в несколько строк.
+                            Довольно таки интересное описание товара в несколько строк.
+                        </div>
+                        <div class="price-text">10 000 руб.</div>
+                    </div>
+                    <div class="product-inform field">
+                        <img src="./img/Rectangle31.png" width="332px" height="200px" alt="">
+                        <div class="header-text">Наименование товара</div>
+                        <div class="paragraph-text">
+                            Довольно таки интересное описание товара в несколько строк.
+                            Довольно таки интересное описание товара в несколько строк.
+                        </div>
+                        <div class="price-text">10 000 руб.</div>
+                    </div>
+                    <div class="product-inform field">
+                        <img src="./img/Rectangle31.png" width="332px" height="200px" alt="">
+                        <div class="header-text">Наименование товара</div>
+                        <div class="paragraph-text">
+                            Довольно таки интересное описание товара в несколько строк.
+                            Довольно таки интересное описание товара в несколько строк.
+                        </div>
+                        <div class="price-text">10 000 руб.</div>
+                    </div>
+                    <div class="product-inform field">
+                        <img src="./img/Rectangle31.png" width="332px" height="200px" alt="">
+                        <div class="header-text">Наименование товара</div>
+                        <div class="paragraph-text">
+                            Довольно таки интересное описание товара в несколько строк.
+                            Довольно таки интересное описание товара в несколько строк.
+                        </div>
+                        <div class="price-text">10 000 руб.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
