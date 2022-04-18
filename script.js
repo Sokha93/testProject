@@ -25,3 +25,7 @@ function changeBackground() {
 //         document.querySelector('.validation').style.display = 'none'
 //     }
 // }
+
+function checkValidation(event) {
+    event.preventDefault()
+}
